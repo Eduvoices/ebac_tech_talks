@@ -1,6 +1,8 @@
+@use '../variaveis';
+
 .infos-bar {
     padding: 16px 24px;
-    background-color: #fff;
+    background-color: variaveis.$txtColor;
     display: flex;
     justify-content: space-between;
     &__infos {
@@ -9,12 +11,12 @@
 
         &__item {
             font-size: 14px;
-            color: #000;
+            color: variaveis.$txtSecondary;
 
             b {
                 font-size: 18px;
                 display: block;
-                color: #000;
+                color: variaveis.$txtSecondary;
             }
         }
     }
